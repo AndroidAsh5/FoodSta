@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lenovo.prj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/f"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        // android:label="@string/app_name"
+        // android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".LudhianaHotelList" />
+        <activity android:name=".YellowChilliMenu" />
+        <activity
+            android:name=".FrontSplashActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".showCart" />
+        <activity android:name=".YellowChilliStarters" />
+        <activity android:name=".YellowChilliDal" />
+        <activity android:name=".YellowChilliMeals" />
+        <activity android:name=".YellowChilliSoups" />
+        <activity android:name=".YellowChilliRice" />
+        <activity android:name=".YellowChilliSaladsAndRaita" />
+        <activity android:name=".FoodSquareMenu" />
+        <activity android:name=".FoodSquareIndianMainCourse" />
+        <activity android:name=".showCart2" />
+        <activity android:name=".FoodSquareKathiRolls" />
+        <activity android:name=".FoodSquareDesserts" />
+        <activity android:name=".HaveliMenu" />
+        <activity android:name=".HaveliIndianCourse" />
+        <activity android:name=".showCart3" />
+        <activity android:name=".SamPizzaBreads" />
+        <activity android:name=".SamPizzaClassicPizza" />
+        <activity android:name=".SamPizzaPremiumPizza" />
+        <activity android:name=".SamPizzaPizzaCombos" />
+        <activity android:name=".SamPizzaSupremePizza" />
+        <activity android:name=".SinghMenu" />
+        <activity android:name=".SinghPopularProducts" />
+        <activity android:name=".showCart4" />
+        <activity android:name=".SinghVegRolls" />
+        <activity android:name=".SinghVegCurries" />
+        <activity android:name=".SinghNonVegCurries" />
+        <activity android:name=".SinghGymSpl" />
+        <activity android:name=".ChandigarhHotelList" />
+        <activity android:name=".KitchenKnightMenu" />
+        <activity android:name=".KitchenKnightTandooriStarters" />
+        <activity android:name=".showCart5" />
+        <activity android:name=".KitchenKnightAsianMain" />
+        <activity android:name=".KitchenKnightAsianStarters" />
+        <activity android:name=".KitchenKnightSpecial" />
+        <activity android:name=".KitchenKnightAcc" />
+        <activity android:name=".ButtonNext" />
+        <activity android:name=".uui" />
+        <activity android:name=".uuipopular" />
+        <activity android:name=".showcartuui" />
+        <activity android:name=".JalandharHotelList" />
+        <activity android:name=".SousMenu" />
+        <activity android:name=".DeliveryType" />
+        <activity android:name=".PaymentMethod" />
+        <activity android:name=".SousSnacks" />
+        <activity android:name=".showCart6" />
+        <activity android:name=".SousRiceAndBiryani" />
+        <activity android:name=".SousIndianMainCourse" />
+        <activity android:name=".SousChinese" />
+        <activity android:name=".SousTandooriBread" />
+        <activity android:name=".SousDesserts" />
+        <activity android:name=".EatWellMenu" />
+        <activity android:name=".EatWellAllTime" />
+        <activity android:name=".showCart7" />
+        <activity android:name=".EatWellDosa" />
+        <activity android:name=".EatWellIdli" />
+        <activity android:name=".EatWellRawa" />
+        <activity android:name=".EatWellRice" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Check" />
+        <activity android:name=".Main22Activity"></activity>
+    </application>
+
+</manifest>
